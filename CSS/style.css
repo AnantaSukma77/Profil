@@ -53,10 +53,15 @@
   transition: 0.5s;
 }
 #nav-bar .btn-light button {
-  width: 50px;
+  width: 70px;
   height: 30px;
   font-size: 20px;
   font-weight: 200;
+  border-radius: 10px;
+}
+#nav-bar .btn-light button:hover {
+  cursor: pointer;
+  background-color: aquamarine;
 }
 #nav-bar .btn-resume button {
   width: 120px;
