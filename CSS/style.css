@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  transition: backgroun-color 0.5s ease;
 }
 
 .light-mode {
@@ -52,16 +51,17 @@
   transform: scale(2.7) translateY(5px);
   transition: 0.5s;
 }
-#nav-bar .btn-light button {
+#nav-bar .btn-light #btn-mode {
   width: 70px;
   height: 30px;
   font-size: 20px;
   font-weight: 200;
   border-radius: 10px;
 }
-#nav-bar .btn-light button:hover {
+#nav-bar .btn-light #btn-mode:hover {
   cursor: pointer;
   background-color: aquamarine;
+  transition: 0.3s;
 }
 #nav-bar .btn-resume button {
   width: 120px;
